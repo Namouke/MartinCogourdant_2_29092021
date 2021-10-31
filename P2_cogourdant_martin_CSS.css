@@ -1,0 +1,12 @@
+h1, strong, p, h3
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer1
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    margin: auto;
+}
