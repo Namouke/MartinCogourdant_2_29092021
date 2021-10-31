@@ -3,6 +3,44 @@ h1, strong, p, h3
     font-family: 'Raleway', sans-serif;
 }
 
+header
+{
+    
+}
+.header
+{
+    max-width: 50%;
+    z-index: 1;
+}
+
+.NavHautDroit
+{
+    z-index: 2;
+    border-top: #DEEBFF;
+    display: flex;
+    justify-self: flex-end;
+    position:sticky;
+    top: initial;
+    right: initial;
+}
+.MenuPref
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu01
+{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ElementMenu02
+{
+    display: flex;
+    justify-content: ;
+}
 .footer1
 {
     display: flex;
