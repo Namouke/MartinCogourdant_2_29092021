@@ -3,6 +3,12 @@ h1, strong, p, h3
     font-family: 'Raleway', sans-serif;
 }
 
+img
+{
+    max-width: 300px;
+    max-height: 300px;
+}
+
 a
 {
     text-decoration: none;
@@ -49,10 +55,23 @@ padding: 20px;
     justify-content: space-between;
 }
 
+.menu02
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ElementMenu01
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
 .ElementMenu02
 {
     display: flex;
-    justify-content: ;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .footer1
 {
