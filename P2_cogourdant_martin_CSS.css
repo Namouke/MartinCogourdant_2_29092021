@@ -53,19 +53,48 @@ padding: 20px;
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
+    padding: auto;
+    margin: auto;
+}
+
+.logement01, .logement02, .logement03, .logement04, .logement05, .logement06
+{
+    border: 3px dotted white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+
 }
 
 .menu02
 {
     display: flex;
     justify-content: space-around;
+    padding: auto;
+    margin: auto;
 }
+
+.logementpopulaire01, .logementpopulaire02, .logementpopulaire03
+{
+    border: 3px dotted white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
 .ElementMenu01
 {
     display: flex;
     flex-wrap: wrap;
 
 }
+
+
+
 .ElementMenu02
 {
     display: flex;
@@ -73,6 +102,24 @@ padding: 20px;
     justify-content: center;
 
 }
+
+.menu02
+{
+    display: flex;
+}
+
+.Activité01, .Activité02, .Activité03, .Activité04, .Activité05, .Activité06
+{
+    background: #F5F5F5 no-repeat 10px 15px;
+    border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    color: #404040;
+    padding: 0 10px 10px 100px;
+    margin: 50px 0;
+    height: 300px;
+    width: 300px;
+}
+
 .footer1
 {
     display: flex;
