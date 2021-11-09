@@ -5,6 +5,15 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.texte-gras {
+    font-weight: bold;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 img {
     max-width: 300px;
     max-height: 300px;
@@ -15,18 +24,54 @@ a {
     color: black;
 }
 
+.bordureNone {
+    border: none;
+}
+
 .fondBleu {
     background-color: #0065FC;
 }
 
+.fondGris {
+    background-color: #F2F2F2;
+}
 
 
         /*  header  */
 
-.header {
-    max-width: 50%;
-    z-index: 1;
+.barDeRecherche {
+width: 400px;
+border-radius: 10px;
+border: 0.5px solid #F2F2F2;
 }
+
+.iconMapBdrTaille {
+height: 50px;
+width: 50px;
+border-radius: 10px 0 0 10px;
+}
+
+.bdrTaille {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.boutonBdr {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+
+
+
+
 
 .NavHautDroit {
     display: flex;
@@ -41,6 +86,12 @@ border-top:1px solid #0065FC;
 margin: 20px;
 padding: 20px;
 }
+
+
+
+
+
+
 
         /* menu de préférence */
 
