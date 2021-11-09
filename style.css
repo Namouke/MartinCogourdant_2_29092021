@@ -37,11 +37,16 @@ a
     top: 0px;
 }
 
-.Bouton01, .Bouton02
+.Bouton
 {
 border-top:1px solid blue;
 margin: 20px;
 padding: 20px;
+}
+
+.bi bi-info-circle
+{
+    color: #236fe0;
 }
 
         /* menu de préférence */
@@ -52,10 +57,10 @@ padding: 20px;
     justify-content: space-around;
 }
 
-.barreDeRecherche
+/*.barreDeRecherche
 {
 
-}
+}*/
 
 
         /* section 1 */
@@ -145,7 +150,7 @@ padding: 20px;
         /* footer */
 
 
-.footer1
+.footer
 {
     display: flex;
     justify-content: space-around;
