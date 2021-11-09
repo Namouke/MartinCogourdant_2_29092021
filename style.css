@@ -1,35 +1,34 @@
 
         /* mise en page général */
 
-h1, strong, p, h3
-{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
-img
-{
+img {
     max-width: 300px;
     max-height: 300px;
 }
 
-a
-{
+a {
     text-decoration: none;
     color: black;
+}
+
+.fondBleu {
+    background-color: #0065FC;
 }
 
 
 
         /*  header  */
 
-.header
-{
+.header {
     max-width: 50%;
     z-index: 1;
 }
 
-.NavHautDroit
-{
+.NavHautDroit {
     display: flex;
     justify-self: flex-end;
     position:absolute;
@@ -37,36 +36,25 @@ a
     top: 0px;
 }
 
-.Bouton
-{
-border-top:1px solid blue;
+.Bouton {
+border-top:1px solid #0065FC;
 margin: 20px;
 padding: 20px;
 }
 
-.bi bi-info-circle
-{
-    color: #236fe0;
-}
-
         /* menu de préférence */
 
-.MenuPref
-{
+.MenuPref {
     display: flex;
     justify-content: space-around;
 }
 
-/*.barreDeRecherche
-{
-
-}*/
-
 
         /* section 1 */
 
-.menu01
-{
+
+
+.menu01 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 50px;
@@ -78,15 +66,13 @@ padding: 20px;
     padding: 25px;
 }
 
-.ElementMenu01 .content
-{
+.ElementMenu01 .content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
 }
 
-.logement
-{
+.logement {
     border: 3px dotted white;
     border-radius: 10px;
     background-color: white;
@@ -98,16 +84,14 @@ padding: 20px;
         /* section 2 */
 
 
-.menu02
-{
+.menu02 {
     display: flex;
     justify-content: space-around;
     padding: auto;
     margin: auto;
 }
 
-.logementpopulaire
-{
+.logementpopulaire {
     border: 3px dotted white;
     border-radius: 10px;
     background-color: white;
@@ -115,30 +99,26 @@ padding: 20px;
     margin: 10px;
 }
 
-.ElementMenu02
-{
+.ElementMenu02 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
 
-.menu02
-{
+.menu02 {
     display: flex;
 }
 
 
         /* section 3 */
 
-.Activite
-{
+.Activite {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr;
 }
 
-.Activites
-{
+.Activites {
     border: 3px dotted white;
     border-radius: 10px;
     background-color: white;
@@ -150,8 +130,7 @@ padding: 20px;
         /* footer */
 
 
-.footer
-{
+.footer {
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
