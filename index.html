@@ -12,11 +12,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-widht: 992px)" href="petite_resolution.css" />
+    <script src="https://kit.fontawesome.com/5f4d93579f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
         integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/5f4d93579f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-widht: 992px)" href="petite_resolution.css" />
+
     <title>Booki</title>
 </head>
 
@@ -69,28 +70,24 @@
 
         <!-- filtre  pour les options d'hévergement -->
 
-
-        <div class="filtres texte-gras margeFiltres">
-            <div class="margeTitreFiltre">
-                <p>Filtres</p>
+        <div class="filtre margeFiltre">
+            <div class="margeFiltreTitre">
+                <h3>Filtres</h3>
             </div>
-            <div><a href="#">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <p>Economique</p>
-                </a></div>
-            <div><a href="#">
-                    <i class="fas fa-child"></i>
-                    <p>Famillial</p>
-                </a></div>
-            <div><a href="#">
-                    <i class="fas fa-heart"></i>
-                    <p>Romantique</p>
-                </a></div>
-            <div><a href="#">
-                    <i class="fas fa-dog"></i>
-                    <p>Animaux autorisés</p>
-                </a></div>
+            <div class="filtreTexteIcones"><i class="fas fa-money-bill-wave filtreIcones flex-center"></i>
+                <div>Economiques</div>
+            </div>
+            <div class="filtreTexteIcones"><i class="fas fa-child filtreIcones flex-center"></i>
+                <div>Familiales</div>
+            </div>
+            <div class="filtreTexteIcones"><i class="fas fa-heart filtreIcones flex-center"></i>
+                <div>Romantiques</div>
+            </div>
+            <div class="filtreTexteIcones"><i class="fas fa-dog filtreIcones flex-center"></i>
+                <div>Animaux autorisés</div>
+            </div>
         </div>
+        <!-- il faut encore faire en sorte que quand on survole les filtres leurs aspects changent -->
 
 
         <!-- il faut trouver dans le cahier d'écharge les logo pour les filtres -->
@@ -153,7 +150,9 @@
 
 
             <div class="ElementMenu02">
-                <div><h3>Les plus populaires</h3><i class="fas fa-chart-line"></i></div>
+                <div>
+                    <h3>Les plus populaires</h3><i class="fas fa-chart-line"></i>
+                </div>
 
                 <article>
                     <div class="logementpopulaire"><img src="DWP2/images/hebergements/4_small/hotellesoleildumatin.jpg">
