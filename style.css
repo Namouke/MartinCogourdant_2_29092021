@@ -1,5 +1,5 @@
 
-        /* mise en page général */
+/* mise en page général */
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -37,11 +37,11 @@ a {
 }
 
 
-        /*  header  */
+/*  header  */
 
-    /* nav header */
+/* nav header */
 
-.NavHautDroit {
+.navHautDroit {
     display: flex;
     justify-self: flex-end;
     position:absolute;
@@ -49,13 +49,13 @@ a {
     top: 0px;
 }
 
-.Bouton {
+.bouton {
 border-top:1px solid #0065FC;
 margin: 20px;
 padding: 20px;
 }
 
-    /* barre de recherche*/
+/* barre de recherche*/
 
 .barDeRecherche {
 width: 400px;
@@ -86,15 +86,25 @@ border-radius: 10px 0 0 10px;
     border-radius: 0 10px 10px 0;
 }
 
-        /* Filtres */
+/* Filtres */
 
 .filtres {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.margeFiltres{
+   margin-top: 50px;
+    margin-bottom: 40px; 
+}
+
+.margeTitreFiltre{
+    margin-right: 20px;
 }
 
 
-         /* section 1 Hébergements */
+/* section 1 Hébergements */
 
 .menu01 {
     display: grid;
@@ -123,7 +133,7 @@ border-radius: 10px 0 0 10px;
 
 }
 
-        /* section 2 Populaires */
+/* section 2 Populaires */
 
 .menu02 {
     display: flex;
@@ -152,7 +162,7 @@ border-radius: 10px 0 0 10px;
 }
 
 
-        /* section 3  Activités */
+/* section 3  Activités */
 
 .Activite {
     display: grid;
@@ -168,7 +178,7 @@ border-radius: 10px 0 0 10px;
 }
 
 
-        /* footer */
+/* footer */
 
 
 .footer {
