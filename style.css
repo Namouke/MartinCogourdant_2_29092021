@@ -39,6 +39,24 @@ a {
 
         /*  header  */
 
+    /* nav header */
+
+.NavHautDroit {
+    display: flex;
+    justify-self: flex-end;
+    position:absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.Bouton {
+border-top:1px solid #0065FC;
+margin: 20px;
+padding: 20px;
+}
+
+    /* barre de recherche*/
+
 .barDeRecherche {
 width: 400px;
 border-radius: 10px;
@@ -68,42 +86,15 @@ border-radius: 10px 0 0 10px;
     border-radius: 0 10px 10px 0;
 }
 
+        /* Filtres */
 
-
-
-
-
-.NavHautDroit {
-    display: flex;
-    justify-self: flex-end;
-    position:absolute;
-    right: 0px;
-    top: 0px;
-}
-
-.Bouton {
-border-top:1px solid #0065FC;
-margin: 20px;
-padding: 20px;
-}
-
-
-
-
-
-
-
-        /* menu de préférence */
-
-.MenuPref {
+.filtres {
     display: flex;
     justify-content: space-around;
 }
 
 
-        /* section 1 */
-
-
+         /* section 1 Hébergements */
 
 .menu01 {
     display: grid;
@@ -132,8 +123,7 @@ padding: 20px;
 
 }
 
-        /* section 2 */
-
+        /* section 2 Populaires */
 
 .menu02 {
     display: flex;
@@ -162,7 +152,7 @@ padding: 20px;
 }
 
 
-        /* section 3 */
+        /* section 3  Activités */
 
 .Activite {
     display: grid;
