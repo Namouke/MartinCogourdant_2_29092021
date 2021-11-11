@@ -1,7 +1,7 @@
 
 /* mise en page général */
 
-body {
+html,body {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -21,15 +21,16 @@ body {
     align-items: center;
 }
 
+.flex-between{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 img {
     max-width: 300px;
     max-height: 300px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
 
 .bordureNone {
     border: none;
@@ -48,21 +49,27 @@ a {
 
 /* nav header */
 
-.navHautDroit {
-    display: flex;
-    justify-self: flex-end;
-    position:absolute;
-    right: 0px;
-    top: 0px;
+.espaceLiensNavHeader {
+    width: 10%;
 }
 
-.bouton {
-    border-top:1px solid #0065FC;
-    margin: 20px;
-    padding: 20px;
+.colorLiensNavHeader {
+    text-decoration: none;
+    color: black;
 }
 
-/* barre de recherche*/
+
+.tailleLiensNavHeader {
+    width: 140px;
+    height: 99px;
+}
+
+.bordureLiensNav:hover {
+    color: #0065FC;
+    border-top: 1px solid #0065FC
+}
+
+/* barre de recherche header */
 
 .barDeRecherche {
     width: 400px;
@@ -93,7 +100,7 @@ a {
     border-radius: 0 10px 10px 0;
 }
 
-/* Filtres */
+/* Filtres header */
 
 .filtre {
     display: flex;
