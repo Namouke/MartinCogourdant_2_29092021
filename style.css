@@ -6,26 +6,23 @@ html,body {
     margin: 25px 25px 0 25px;
 }
 
+.policeGras {
+    font-weight: bold;
+}
 
-.colorLiensNone {
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.colorLiensNone{
     text-decoration: none;
     color: black;
 }
 
 .colorLiensNone:hover {
-    text-decoration: #0065FC;
-}
-
-.colorBleu {
     color: #0065FC;
-}
-
-.colorBleuClair {
-    color: #DEEBFF;
-}
-
-.colorGris {
-    color: #F2F2F2;
 }
 
 .fondBleu {
@@ -55,13 +52,13 @@ html,body {
     align-content: center;
 }
 
-.paddingLienNav{
+.paddingLienNav {
     padding: 30px;
 }
 
 .paddingLienNav:hover {
     border-top: 2px solid #0065FC;
-    color: #0065FC;
+    text-decoration-color: #0065FC;
 }
 
 /* Barre de recherche */
@@ -69,16 +66,16 @@ html,body {
 .alignBdr {
     display: flex;
     align-content: flex-start;
-    max-width: 292px; 
-    max-height: 52px;
+    width: 292px; 
+    height: 52px;
 }
 
 .tailleLogoMap {
     display: flex;
     justify-content: center;
     align-content: center;
-    max-width: 50px;
-    max-height: 50px;
+    width: 50px;
+    height: 50px;
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
 }
@@ -87,16 +84,16 @@ html,body {
     display: flex;
     justify-content: center;
     align-content: center;
-    max-width: 140px;
-    max-height: 50px;
+    width: 140px;
+    height: 50px;
 }
 
 .tailleBoutonRecherche {
     display: flex;
     justify-content: center;
     align-content: center;
-    max-width: 100px;
-    max-height: 50px;
+    width: 100px;
+    height: 50px;
     background-color: #0065FC;
     color:white;
     border-radius: 0 10px 10px 0;
