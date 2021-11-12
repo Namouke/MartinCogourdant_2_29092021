@@ -1,5 +1,5 @@
 
-/* mise en page général */
+/* GENERAL USE */
 
 html,body {
     font-family: 'Raleway', sans-serif;
@@ -10,34 +10,33 @@ html,body {
     color: black;
 }
 
+.colorBleu {
+    color: #0065FC;
+}
+
+.colorBleuClair {
+    color: #DEEBFF;
+}
+
+.colorGris {
+    color: #F2F2F2;
+}
+
 .fondBleu {
     background-color: #0065FC;
+}
+
+.fondBleuClaire {
+    background-color: #DEEBFF;
 }
 
 .fondGris {
     background-color: #F2F2F2;
 }
 
+/*  HEADER */
 
-/*  header  */
-
-/* nav */
-
-
-
-/* barre de recherche */
-
-
-/* Filtres */
-
-
-
-/* Message d'Info */
-
-
-
-
-/* footer */
+/* FOOTER */
 
 .mepFooter{
     display: flex;
