@@ -3,11 +3,17 @@
 
 html,body {
     font-family: 'Raleway', sans-serif;
+    margin: 25px 25px 0 25px;
 }
+
 
 .colorLiensNone {
     text-decoration: none;
     color: black;
+}
+
+.colorLiensNone:hover {
+    text-decoration: #0065FC;
 }
 
 .colorBleu {
@@ -36,9 +42,69 @@ html,body {
 
 /*  HEADER */
 
+/* nav */
+
+.espaceLogoLiens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.liensNav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.paddingLienNav{
+    padding: 30px;
+}
+
+.paddingLienNav:hover {
+    border-top: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+/* Barre de recherche */
+
+.alignBdr {
+    display: flex;
+    align-content: flex-start;
+    max-width: 292px; 
+    max-height: 52px;
+}
+
+.tailleLogoMap {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+.tailleBdr {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 140px;
+    max-height: 50px;
+}
+
+.tailleBoutonRecherche {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 100px;
+    max-height: 50px;
+    background-color: #0065FC;
+    color:white;
+    border-radius: 0 10px 10px 0;
+}
+
 /* FOOTER */
 
-.mepFooter{
+.mepFooter {
     display: flex;
     justify-content: space-between;
     max-width: 70%;
