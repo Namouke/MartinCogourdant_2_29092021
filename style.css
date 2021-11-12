@@ -5,31 +5,9 @@ html,body {
     font-family: 'Raleway', sans-serif;
 }
 
-.texte-gras {
-    font-weight: bold;
-}
-
-.flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex-around {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.flex-between{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-.bordureNone {
-    border: none;
+.colorLiensNone {
+    text-decoration: none;
+    color: black;
 }
 
 .fondBleu {
@@ -45,90 +23,14 @@ html,body {
 
 /* nav */
 
-.espaceLiensNavHeader {
-    width: 10%;
-}
 
-.colorLiensNavHeader {
-    text-decoration: none;
-    color: black;
-}
-
-
-.tailleLiensNavHeader {
-    width: 140px;
-    height: 99px;
-}
-
-.bordureLiensNav:hover {
-    color: #0065FC;
-    border-top: 1px solid #0065FC
-}
 
 /* barre de recherche */
 
-.barDeRecherche {
-    width: 400px;
-    border-radius: 10px;
-    border: 0.5px solid #F2F2F2;
-}
-
-.iconMapBdrTaille {
-    height: 50px;
-    width: 50px;
-    border-radius: 10px 0 0 10px;
-}
-
-.bdrTaille {
-    height: 50px;
-    width: 230px;
-    font-size: 18px;
-    color: black;
-    font-weight: bold;
-    padding: 20px;
-}
-
-.boutonBdr {
-    height: 50px;
-    width: 120px;
-    color: white;
-    cursor: pointer;
-    border-radius: 0 10px 10px 0;
-}
 
 /* Filtres */
 
-.filtre {
-    display: flex;
-    align-items: center;
-}
 
-.margeFiltre {
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-.margeFiltreTitre {
-    margin-right: 20px;
-}
-
-.filtreTexteIcones {
-    border: 2px solid #F2F2F2;
-    height: 50px;
-    border-radius: 30px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.filtreIcones {
-    border-radius: 25px;
-    width: 52px;
-    height: 52px;
-    color: #0065FC;
-    background-color: #deebff;
-}
 
 /* Message d'Info */
 
@@ -137,11 +39,12 @@ html,body {
 
 /* footer */
 
-
-.footer {
+.mepFooter{
     display: flex;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    margin: auto;
+    justify-content: space-between;
+    max-width: 70%;
+    padding: 20px;
+    padding-left: 50px;
 }
+
 
