@@ -26,10 +26,6 @@ html,body {
     justify-content: space-around;
     align-items: center;
 }
-img {
-    max-width: 300px;
-    max-height: 300px;
-}
 
 
 .bordureNone {
@@ -47,7 +43,7 @@ img {
 
 /*  header  */
 
-/* nav header */
+/* nav */
 
 .espaceLiensNavHeader {
     width: 10%;
@@ -69,7 +65,7 @@ img {
     border-top: 1px solid #0065FC
 }
 
-/* barre de recherche header */
+/* barre de recherche */
 
 .barDeRecherche {
     width: 400px;
@@ -100,7 +96,7 @@ img {
     border-radius: 0 10px 10px 0;
 }
 
-/* Filtres header */
+/* Filtres */
 
 .filtre {
     display: flex;
@@ -134,76 +130,9 @@ img {
     background-color: #deebff;
 }
 
-
-/* section 1 Hébergements */
-
-.menu01 {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 50px;
-}
-
-.ElementMenu01, .ElementMenu02 {
-    background-color: #f2f2f2;
-    border-radius: 20px;
-    padding: 25px;
-}
-
-.ElementMenu01 .content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.logement {
-    border: 3px dotted white;
-    border-radius: 10px;
-    background-color: white;
-    padding: 5px;
-    margin: 10px;
-}
-
-/* section 2 Populaires */
-
-.menu02 {
-    display: flex;
-    justify-content: space-around;
-    padding: auto;
-    margin: auto;
-}
-
-.logementpopulaire {
-    border: 3px dotted white;
-    border-radius: 10px;
-    background-color: white;
-    padding: 5px;
-    margin: 10px;
-}
-
-.ElementMenu02 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.menu02 {
-    display: flex;
-}
+/* Message d'Info */
 
 
-/* section 3  Activités */
-
-.Activite {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr;
-}
-
-.Activites {
-    border: 3px dotted white;
-    border-radius: 10px;
-    background-color: white;
-    padding: 5px;
-    margin: 10px;
-}
 
 
 /* footer */
