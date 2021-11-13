@@ -25,6 +25,9 @@ html,body {
     color: #0065FC;
 }
 
+.colorBleu {
+    color: #0065FC;
+}
 .fondBleu {
     background-color: #0065FC;
 }
@@ -39,7 +42,7 @@ html,body {
 
 /*  HEADER */
 
-/* nav */
+/* Entête */
 
 .espaceLogoLiens {
     display: flex;
@@ -101,6 +104,50 @@ html,body {
     border-radius: 0 10px 10px 0;
 }
 
+/* Filtres */
+
+.filtres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    height: 55px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.alignFiltres {
+    display: flex;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    max-height: 50px;
+    min-width: 50px;
+    border-radius: 25px;
+    border-left: none;
+}
+
+.alignFiltres:hover {
+    border: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+.logoFiltres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px; 
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.filtreTitre {
+    display: flex;
+    align-items: flex-start;
+}
+.marginTexte {
+    margin-right: 15px;
+}
 /* FOOTER */
 
 .mepFooter {
@@ -108,7 +155,7 @@ html,body {
     justify-content: space-between;
     max-width: 70%;
     padding: 20px;
-    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
