@@ -40,6 +40,10 @@ html,body {
     background-color: #F2F2F2;
 }
 
+.fondBlanc {
+    background-color: white;
+}
+
 /*  HEADER */
 
 /* Entête */
@@ -176,6 +180,69 @@ html,body {
     max-height: 25px;
     margin-right: 10px;
 }
+
+/* SECTION 1 */
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;   
+} 
+
+.sectionHebergemets {
+    flex: 2;
+    margin-right: 50px;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.sectionPopulaires {
+    flex: 1;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+/* Titres */
+
+.titrePopulaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoTitrePopulaire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+/* Vignettes */
+
+.vignettesHebergement {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cadreVignetteHebergement {
+    max-width: 300px;
+    min-width: 300px;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 3px;
+}
+
+.photoHebergement {
+    max-width: 297px;
+    min-width: 297px;
+}
+
+.titreCadreHerbergement
+
+.prixHebergement
+
+.noteHebergement
+
+
 /* FOOTER */
 
 .mepFooter {
