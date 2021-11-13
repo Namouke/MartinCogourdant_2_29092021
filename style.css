@@ -110,8 +110,8 @@ html,body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 50%;
-    height: 55px;
+    max-width: 60%;
+    max-height: 55px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -120,16 +120,21 @@ html,body {
     display: flex;
     align-items: center;
     border: 2px solid #F2F2F2;
-    max-height: 50px;
-    min-width: 50px;
     border-radius: 25px;
     border-left: none;
+    max-height: 50px;
 }
 
-.alignFiltres:hover {
-    border: 2px solid #0065FC;
-    color: #0065FC;
+/* peut on associer des hover entre eux ? peut on les mettres sur une seule ligne de code ? */
+
+.alignFiltres:hover > .logoFiltres {
+    background-color: #0065FC;
 }
+
+.alignFiltres:hover > .colorBleu {
+    color: white;
+}
+
 
 .logoFiltres {
     display: flex;
