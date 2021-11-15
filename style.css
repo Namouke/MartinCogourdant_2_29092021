@@ -48,7 +48,7 @@ html,body {
 
 /* Entête */
 
-.espaceLogoLiens {
+.espaceLogoliens {
     display: flex;
     justify-content: space-between;
 }
@@ -224,16 +224,19 @@ html,body {
 }
 
 .cadreVignetteHebergement {
-    max-width: 300px;
-    min-width: 300px;
-    border-radius: 10px;
+    max-width: 290px;
+    min-width: 290px;
+    border-radius: 25px;
     margin: 25px;
-    padding: 3px;
+    padding: 5px;
 }
 
 .photoHebergement {
-    max-width: 297px;
-    min-width: 297px;
+    width: 290px;
+    width: 290px;
+    max-height: 150px;
+    min-height: 150px;
+    border-radius: 25px 25px 0 0;
 }
 
 .titreCadreHerbergement
