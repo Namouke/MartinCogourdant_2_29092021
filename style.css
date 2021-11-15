@@ -256,5 +256,13 @@ html,body {
     margin-left: 5px;
 }
 
+.liensFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.liensFooter > a {
+    margin: 5px;
+}
 
 /* ~ */
