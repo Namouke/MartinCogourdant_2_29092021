@@ -242,9 +242,21 @@ html,body {
 /* Vignettes section populaires */
 
 .cadreVignettePopulaire {
+    max-height: 190px;
+    min-height: 190px;
     border-radius: 25px;
     margin: 25px;
     padding: 5px;
+}
+
+.imageVignettePopulaire{
+    float: left;
+    max-width: 201px;
+    min-width: 201px;
+    max-height: 190px;
+    min-height: 190px;
+    border-radius: 25px 0 0 25px;
+    margin-right: 15px;
 }
 
 /* liens bas de section hébergement */
