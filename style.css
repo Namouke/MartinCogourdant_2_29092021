@@ -216,7 +216,7 @@ html,body {
     font-size: 25px;
 }
 
-/* Vignettes */
+/* Vignettes section hébergement */
 
 .vignettesHebergement {
     display: flex;
@@ -239,12 +239,23 @@ html,body {
     border-radius: 25px 25px 0 0;
 }
 
-/*.titreCadreHerbergement
+/* Vignettes section populaires */
 
-.prixHebergement
+.cadreVignettePopulaire {
+    border-radius: 25px;
+    margin: 25px;
+    padding: 5px;
+}
 
-.noteHebergement*/
+/* liens bas de section hébergement */
 
+.lienSectionHebergement {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+}
+
+/* Note étoiles */
 
 /* FOOTER */
 
