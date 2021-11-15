@@ -239,11 +239,11 @@ html,body {
     border-radius: 25px 25px 0 0;
 }
 
-.titreCadreHerbergement
+/*.titreCadreHerbergement
 
 .prixHebergement
 
-.noteHebergement
+.noteHebergement*/
 
 
 /* FOOTER */
@@ -252,8 +252,8 @@ html,body {
     display: flex;
     justify-content: space-between;
     max-width: 70%;
-    padding: 20px;
-    padding-right: 50px;
+    padding: 25px;
+    margin-left: 5px;
 }
 
 
