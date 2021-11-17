@@ -186,7 +186,7 @@ html,body {
 .section1 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 25px;   
+    margin: 25px;   
 } 
 
 .sectionHebergemets {
@@ -269,6 +269,17 @@ html,body {
 
 /* Note étoiles */
 
+/* SECTION 2 */
+
+.section2 {
+    padding: 25px;
+}
+/* Titre */
+
+
+/* Vignettes section Activités */
+
+
 /* FOOTER */
 
 .mepFooter {
@@ -276,7 +287,6 @@ html,body {
     justify-content: space-between;
     max-width: 70%;
     padding: 25px;
-    margin-left: 5px;
 }
 
 .liensFooter {
