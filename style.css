@@ -28,6 +28,10 @@ html,body {
 .colorBleu {
     color: #0065FC;
 }
+
+.colorGris {
+    color: #F2F2F2;
+}
 .fondBleu {
     background-color: #0065FC;
 }
@@ -237,6 +241,15 @@ html,body {
     max-height: 150px;
     min-height: 150px;
     border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+
+.prixHebergement {
+    padding-left: 10px;
+}
+
+.titreCadreHerbergement {
+    padding-left: 10px;
 }
 
 /* Vignettes section populaires */
@@ -257,6 +270,7 @@ html,body {
     min-height: 190px;
     border-radius: 25px 0 0 25px;
     margin-right: 15px;
+    object-fit: cover;
 }
 
 /* liens bas de section hébergement */
@@ -268,6 +282,10 @@ html,body {
 }
 
 /* Note étoiles */
+
+.herbegementNote {
+    padding: 0 0 10px 10px;
+}
 
 /* SECTION 2 */
 
@@ -295,6 +313,7 @@ border-radius: 25;
     max-width: 300px;
     max-height: 600px;
     border-radius: 25px 25px 0 0;
+    object-fit: cover;
 }
 
 /* FOOTER */
