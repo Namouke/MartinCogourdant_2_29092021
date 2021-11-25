@@ -233,6 +233,7 @@ html,body {
     border-radius: 25px;
     margin: 25px;
     padding: 5px;
+    box-shadow: 1px 1px 12px #D7C9C9;
 }
 
 .photoHebergement {
@@ -260,6 +261,7 @@ html,body {
     border-radius: 25px;
     margin: 25px;
     padding: 5px;
+    box-shadow: 1px 1px 12px #D7C9C9;
 }
 
 .imageVignettePopulaire{
@@ -292,32 +294,54 @@ html,body {
 .section2 {
     padding: 25px;
     max-height: 2000Px;
+    margin-bottom: 50px;
 }
 
 /* Vignettes section Activités */
 
 .BLocVignettesActivites {
+    margin-top: 40px;
     max-width: 1753px;
-    max-height: 650px;
+    max-height: 600px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .VignettesActivites {
-    margin: 25px;
-    max-width: 300px;
+    max-width: 325px;
     border-radius: 25px;
     box-shadow: 1px 1px 12px #F2F2F2;
 }
 
+
 /* Il faut absolument revoir le cours sur les box-shadow */
 
-.photoActivites {
-    max-width: 300px;
-    max-height: 600px;
+.photoActivitesGrande {
+    max-width: 325px;
+    max-width: 325px;
+    min-height: 520px;
     border-radius: 25px 25px 0 0;
     object-fit: cover;
 }
+
+.photoActivitesUnTiers {
+    min-width: 325px;
+    max-width: 325;
+    max-height: 160px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+
+.photoActivitesDeuxTiers {
+    min-width: 325px;
+    max-width: 325px;
+    max-height: 250px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+
 
 /* FOOTER */
 
