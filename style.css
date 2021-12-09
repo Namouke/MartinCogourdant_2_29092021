@@ -198,6 +198,7 @@ html,body {
     margin-right: 50px;
     border-radius: 25px;
     padding: 25px;
+    background-color: #F2F2F2;
 }
 
 .sectionPopulaires {
@@ -361,4 +362,75 @@ html,body {
     margin: 5px;
 }
 
+
+/* Media */
+
+@media ( max-width: 768px) {
+
+
+    /* En tête */
+    
+    .espaceLogoliens {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .paddingLienNav {
+        padding-bottom: 10px;
+        border-bottom: solid 2px #F2F2F2;
+    }
+    
+    .entete {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .paddingLienNav:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        text-decoration-color: #0065FC;
+    }
+    
+    /* Filtre */
+
+    .filtres {
+        flex-direction: column;
+        max-height: none;
+    }
+
+    /* Section 1 hébergement et populaire*/
+    
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin: 25px;   
+    } 
+    
+    .sectionHebergemets {
+        flex: none;
+        margin-right: 50px;
+        border-radius: 25px;
+        padding: 25px;
+        background-color: white;
+    }
+    
+    .sectionPopulaires {
+        flex: none;
+        border-radius: 0px;
+        padding: 25px;
+    }
+    /* section 2 Activitées */
+
+
+    /* Footer */
+
+    .mepFooter {
+        flex-direction: column;
+    }
+    .liensFooter {
+        margin-bottom: 20px;
+    }
+
+
+    }
 /* ~ */
