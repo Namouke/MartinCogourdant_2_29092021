@@ -131,6 +131,7 @@ html,body {
     border-radius: 25px;
     border-left: none;
     max-height: 50px;
+    margin: 10px;
 }
 
 /* peut on associer des hover entre eux ? peut on les mettres sur une seule ligne de code ? */
@@ -148,9 +149,9 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 52px;
-    height: 52px; 
-    border-radius: 25px;
+    min-width: 52px;
+    min-height: 52px; 
+    border-radius: 50%;
     margin-right: 10px;
 }
 
@@ -314,13 +315,14 @@ html,body {
     max-width: 325px;
     border-radius: 25px;
     box-shadow: 1px 1px 12px #F2F2F2;
+    margin: 5px;
 }
 
 
 /* Il faut absolument revoir le cours sur les box-shadow */
 
 .photoActivitesGrande {
-    max-width: 325px;
+    min-width: 325px;
     max-width: 325px;
     min-height: 520px;
     border-radius: 25px 25px 0 0;
@@ -367,19 +369,41 @@ html,body {
 
 @media ( max-width: 768px) {
 
+    /* Général */
 
-    /* En tête */
-    
-    .espaceLogoliens {
-        display: flex;
-        flex-direction: column;
+    html,body {
+        margin: auto;
+    }
+
+    h1 {
+        align-items: center;
+    }
+
+    nav {
+        height: auto;
+        width: auto;
     }
     
+    
+    /* En tête */
+
+    .espaceLogoliens {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logoBooki {
+        margin-left: 60px;
+    }
+
     .paddingLienNav {
         padding-bottom: 10px;
         border-bottom: solid 2px #F2F2F2;
     }
-    
+     
+    .margineHeaderRespon {
+        margin: 20px;
+    }
     .entete {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -389,14 +413,37 @@ html,body {
         border-top: none;
         text-decoration-color: #0065FC;
     }
+
+    /* Barre de recherche */
+
+    .alignBdr {
+        align-content: center;
+        width: auto; 
+    }
     
+    .tailleBoutonRecherche {
+        width: 50px;
+    }
+    
+    .tailleBdr {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        max-width: 140px;
+        max-height: 50px;
+    }
     /* Filtre */
 
     .filtres {
         flex-direction: column;
+        align-items: flex-start;
         max-height: none;
+        max-width: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
+    
     /* Section 1 hébergement et populaire*/
     
     .section1 {
@@ -412,16 +459,56 @@ html,body {
         border-radius: 25px;
         padding: 25px;
         background-color: white;
+        order: 2;
     }
     
     .sectionPopulaires {
         flex: none;
         border-radius: 0px;
         padding: 25px;
+        order: 1; 
     }
+
+
     /* section 2 Activitées */
 
+    .section2 {
+        max-height: none;
+    }
 
+    .BLocVignettesActivites {
+        max-height: none;
+    }
+
+    .VignettesActivites {
+        max-width: none;
+        border-radius: 25px;
+        box-shadow: 1px 1px 12px #F2F2F2;
+        margin: 5px;
+    }
+    
+    .photoActivitesGrande {
+        min-width: none;
+        max-width: none;
+        max-height: 215px;
+        min-height: 215px;
+        max-height: 160px;
+        min-height: 160px;
+    }
+    
+    .photoActivitesUnTiers {
+        min-width: none;
+        max-width: none;
+        max-height: 160px;
+        min-height: 160px;
+    }
+    
+    .photoActivitesDeuxTiers {
+        min-width: none;
+        max-width: none;
+        max-height: 160px;
+        min-height: 160px;
+    }
     /* Footer */
 
     .mepFooter {
@@ -430,7 +517,6 @@ html,body {
     .liensFooter {
         margin-bottom: 20px;
     }
-
 
     }
 /* ~ */
