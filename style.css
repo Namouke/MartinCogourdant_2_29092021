@@ -85,13 +85,12 @@ html,body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    min-width: 50px;
     height: 50px;
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
     padding: 0;
 }
-
 
 .tailleBdr {
     display: flex;
@@ -133,8 +132,6 @@ html,body {
     max-height: 50px;
     margin: 10px;
 }
-
-/* peut on associer des hover entre eux ? peut on les mettres sur une seule ligne de code ? */
 
 .alignFiltres:hover > .logoFiltres {
     background-color: #0065FC;
@@ -240,7 +237,6 @@ html,body {
 
 .photoHebergement {
     width: 290px;
-    width: 290px;
     max-height: 150px;
     min-height: 150px;
     border-radius: 25px 25px 0 0;
@@ -277,6 +273,18 @@ html,body {
     object-fit: cover;
 }
 
+.descriptifPopulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 190px;
+    position: relative;
+}
+
+.prixVignettePopulaire {
+    margin-bottom: 0px;
+}
+
 /* liens bas de section hébergement */
 
 .lienSectionHebergement {
@@ -289,6 +297,12 @@ html,body {
 
 .herbegementNote {
     padding: 0 0 10px 10px;
+}
+
+.populairesNote {
+    padding: 0 0 10px 0;
+    position: absolute;
+    bottom: 0;
 }
 
 /* SECTION 2 */
@@ -382,6 +396,7 @@ html,body {
     nav {
         height: auto;
         width: auto;
+        padding: 20px;
     }
     
     
@@ -424,14 +439,16 @@ html,body {
     .tailleBoutonRecherche {
         width: 50px;
     }
-    
+
     .tailleBdr {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        max-width: 140px;
-        max-height: 50px;
+        max-width: none;
     }
+    /* Information */
+
+    .information {
+        margin-bottom: auto;
+    }
+
     /* Filtre */
 
     .filtres {
@@ -450,12 +467,12 @@ html,body {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        margin: 25px;   
+        margin: auto;   
     } 
     
     .sectionHebergemets {
         flex: none;
-        margin-right: 50px;
+        margin-right: auto;
         border-radius: 25px;
         padding: 25px;
         background-color: white;
@@ -465,8 +482,54 @@ html,body {
     .sectionPopulaires {
         flex: none;
         border-radius: 0px;
-        padding: 25px;
+        padding: 20px;
         order: 1; 
+    }
+
+    /* populaire */ 
+
+    .cadreVignettePopulaire {
+        margin: auto;
+        margin-bottom: 15px;
+        min-height: 170px;
+    }
+
+    .de
+    .imageVignettePopulaire {
+        max-width: 150px;
+        min-width: 150px;
+        max-height: 170px;
+        min-height: 170px;
+    }
+
+    .populairesNote {
+        padding: 0 0 25px 0;
+    }
+
+    .prixVignettePopulaire {
+        margin: 0;
+    }
+    /* hebergement */
+
+    .cadreVignetteHebergement {
+        margin: 0 0 15px 0;
+        min-width: -moz-available;
+    }
+
+    .photoHebergement {
+        min-width: -moz-available;
+        max-height: 135px;
+        min-height: 135px;
+    }
+    .titreCadreHerbergement {
+        margin: 5px 0 5px 0;
+    }
+
+    .prixHebergement {
+        margin: 7px 0 7px 0;
+    }
+    .herbegementNote {
+        padding: 0 0 10px 10px;
     }
 
 
@@ -474,17 +537,18 @@ html,body {
 
     .section2 {
         max-height: none;
+        margin-bottom: auto;
     }
 
     .BLocVignettesActivites {
         max-height: none;
+        margin-top: 20px;
     }
 
     .VignettesActivites {
         max-width: none;
-        border-radius: 25px;
-        box-shadow: 1px 1px 12px #F2F2F2;
-        margin: 5px;
+        margin: auto;
+        margin-bottom: 20px;
     }
     
     .photoActivitesGrande {
@@ -508,6 +572,10 @@ html,body {
         max-width: none;
         max-height: 160px;
         min-height: 160px;
+    }
+
+    .titreActivitesVignettes {
+        margin: 20px;
     }
     /* Footer */
 
