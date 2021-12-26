@@ -111,6 +111,15 @@ html,body {
     border-radius: 0 10px 10px 0;
 }
 
+.reponsiveFullScreen {
+    display: flex;
+
+}
+
+.reponsiveMobile {
+    display: none;
+}
+
 /* Filtres */
 
 .filtres {
@@ -207,6 +216,9 @@ html,body {
 
 /* Titres */
 
+.titreSectionHebergement{
+    margin-left: 25px;
+}
 .titrePopulaires {
     display: flex;
     justify-content: space-between;
@@ -253,6 +265,10 @@ html,body {
 
 /* Vignettes section populaires */
 
+.logoTitrePopulaire {
+    margin-right: 25px;
+}
+
 .cadreVignettePopulaire {
     max-height: 190px;
     min-height: 190px;
@@ -273,7 +289,7 @@ html,body {
     object-fit: cover;
 }
 
-.descriptifPopulaire{
+.descriptifPopulaires{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -443,6 +459,16 @@ html,body {
     .tailleBdr {
         max-width: none;
     }
+
+     .reponsiveMobile {
+        display: flex;
+    }
+
+    .reponsiveFullScreen {
+        display: none;
+    }
+
+
     /* Information */
 
     .information {
@@ -488,13 +514,16 @@ html,body {
 
     /* populaire */ 
 
+    .logoTitrePopulaire {
+        margin-right: 0px;
+    }
+
     .cadreVignettePopulaire {
         margin: auto;
         margin-bottom: 15px;
         min-height: 170px;
     }
 
-    .de
     .imageVignettePopulaire {
         max-width: 150px;
         min-width: 150px;
@@ -508,6 +537,14 @@ html,body {
 
     .prixVignettePopulaire {
         margin: 0;
+    }
+
+    .descriptifPopulaires {
+        height: 170px;
+    }
+
+    .populairesNote {
+        padding-bottom: 5px;
     }
     /* hebergement */
 
@@ -532,6 +569,9 @@ html,body {
         padding: 0 0 10px 10px;
     }
 
+    .titreSectionHebergement {
+        margin-left: 0px;
+    }
 
     /* section 2 Activitées */
 
