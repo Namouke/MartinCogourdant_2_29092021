@@ -3,7 +3,7 @@
 
 html,body {
     font-family: 'Raleway', sans-serif;
-    margin: 25px 25px 0 25px;
+    margin: 0px 25px 0 25px;
 }
 
 .policeGras {
@@ -65,11 +65,21 @@ html,body {
 
 .paddingLienNav {
     padding: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .paddingLienNav:hover {
     border-top: 2px solid #0065FC;
     text-decoration-color: #0065FC;
+}
+
+.entete {
+    display: flex;
+}
+
+.logoBooki {
+    padding: 15px;
 }
 
 /* Barre de recherche */
@@ -236,19 +246,20 @@ html,body {
 .vignettesHebergement {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .cadreVignetteHebergement {
-    max-width: 290px;
-    min-width: 290px;
+    max-width: 25%;
+    min-width: 25%;
     border-radius: 25px;
-    margin: 25px;
+    margin: 20px;
     padding: 5px;
     box-shadow: 1px 1px 12px #D7C9C9;
 }
 
 .photoHebergement {
-    width: 290px;
+    width: -moz-available;
     max-height: 150px;
     min-height: 150px;
     border-radius: 25px 25px 0 0;
@@ -272,6 +283,7 @@ html,body {
 .cadreVignettePopulaire {
     max-height: 190px;
     min-height: 190px;
+    min-width: 365px;
     border-radius: 25px;
     margin: 25px;
     padding: 5px;
@@ -522,6 +534,7 @@ html,body {
         margin: auto;
         margin-bottom: 15px;
         min-height: 170px;
+        min-width: auto;
     }
 
     .imageVignettePopulaire {
@@ -586,29 +599,27 @@ html,body {
     }
 
     .VignettesActivites {
-        max-width: none;
+        min-width: -moz-available;
         margin: auto;
         margin-bottom: 20px;
     }
     
     .photoActivitesGrande {
-        min-width: none;
+        min-width: -moz-available;
         max-width: none;
-        max-height: 215px;
-        min-height: 215px;
         max-height: 160px;
         min-height: 160px;
     }
     
     .photoActivitesUnTiers {
-        min-width: none;
+        min-width: -moz-available;
         max-width: none;
         max-height: 160px;
         min-height: 160px;
     }
     
     .photoActivitesDeuxTiers {
-        min-width: none;
+        min-width: -moz-available;
         max-width: none;
         max-height: 160px;
         min-height: 160px;
