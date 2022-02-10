@@ -409,7 +409,42 @@ padding : 0 15px;
 }
 
 
-/* Media */
+/* Media Queries */
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+    
+    /* Général */
+
+    html,body {
+        margin: auto;
+    }
+
+    h1 {
+        align-items: center;
+    }
+
+    nav {
+        height: auto;
+        width: auto;
+        padding: 20px;
+    }
+
+    /* Hébergement */
+
+    .sectionHebergemets {
+        flex: 2;
+        margin-right: 20px;
+        border-radius: 25px;
+        background-color: #F2F2F2;
+    }
+    
+    .sectionPopulaires {
+        flex: 1;
+        border-radius: 25px;
+       
+    }
+
+}
 
 @media screen and ( max-width: 768px) {
 
