@@ -363,9 +363,6 @@ padding : 0 15px;
    
 }
 
-
-/* Il faut absolument revoir le cours sur les box-shadow */
-
 .photoActivitesGrande {
     min-width: 325px;
     max-width: 325px;
@@ -444,6 +441,44 @@ padding : 0 15px;
        
     }
 
+    /* Section Hébergement */
+
+    .sectionHebergemets {
+        min-width: 66%;
+    }
+
+    /* Section populaire */
+
+    .sectionPopulaires {
+        min-width: 33%;
+    }
+
+    /* Section Activité */
+
+    .BLocVignettesActivites {
+        max-width: 992px;
+    }
+    
+    .VignettesActivites {
+        max-width: 25%;
+        margin: 10px;
+       
+    }
+    
+    .photoActivitesGrande {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    .photoActivitesUnTiers {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    
+    .photoActivitesDeuxTiers {
+        min-width: 100%;
+        max-width: 100%;
+    }
 }
 
 @media screen and ( max-width: 768px) {
