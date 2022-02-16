@@ -541,7 +541,7 @@ padding-left:25px;
     .vignetteActivite {
         max-height: 500px;
     }
-
+}
    
 
 @media screen and ( max-width: 768px) {
@@ -730,10 +730,6 @@ padding-left:25px;
         
     }
 
-    .cadreVignetteActivite {
-
-    }
-
     /* Footer */
 
     .mepFooter {
@@ -743,5 +739,5 @@ padding-left:25px;
         margin-bottom: 20px;
     }
 
-    }
+}
 /* ~ */
