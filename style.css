@@ -337,6 +337,10 @@ padding-left:25px;
 
 /* SECTION 2 */
 
+.margeTitreActivite {
+    margin: 40px 0px 0px 15px;
+}
+
 .vignetteActivite {
     display: flex;
     justify-content: space-between;
@@ -534,6 +538,10 @@ padding-left:25px;
 
     /* Section 2 */
 
+    .vignetteActivite {
+        max-height: 500px;
+    }
+
    
 
 @media screen and ( max-width: 768px) {
@@ -714,6 +722,17 @@ padding-left:25px;
     }
 
     /* section 2 Activitées */
+
+    .vignetteActivite {
+        display: none;
+        justify-content: none;
+        max-height: none;
+        
+    }
+
+    .cadreVignetteActivite {
+
+    }
 
     /* Footer */
 
