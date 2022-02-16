@@ -337,55 +337,68 @@ padding-left:25px;
 
 /* SECTION 2 */
 
-.section2 {
-   
-  
-    margin-bottom: 50px;
-padding : 0 15px;
-}
-
-/* Vignettes section Activités */
-
-.BLocVignettesActivites {
-    margin-top: 40px;
-    max-width: 1753px;
-    max-height: 600px;
+.vignetteActivite {
     display: flex;
-    flex-flow: column wrap;
     justify-content: space-between;
-    align-content: space-between;
+    max-height: 600px;
 }
 
-.VignettesActivites {
-    max-width: 325px;
+.cadreVignetteActivite {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
     border-radius: 25px;
+    margin: 15px;
+}
+
+.contourActivite {
+    border-radius: 25px
+    }
+
+.contour {
     box-shadow: 1px 1px 12px #F2F2F2;
-   
-}
+    }
 
-.photoActivitesGrande {
-    min-width: 325px;
-    max-width: 325px;
-    min-height: 520px;
-    border-radius: 25px 25px 0 0;
+.dimensionImage {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-}
+    border-radius: 25px 25px 0 0;
+    }
 
-.photoActivitesUnTiers {
-    min-width: 325px;
-    max-width: 325;
-    max-height: 160px;
-    border-radius: 25px 25px 0 0;
-    object-fit: cover;
-}
+.titreImage  {
+    margin: 15px;
+    }
 
-.photoActivitesDeuxTiers {
-    min-width: 325px;
-    max-width: 325px;
-    max-height: 250px;
-    border-radius: 25px 25px 0 0;
-    object-fit: cover;
-}
+.doublePhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+.dimenssionPetit1 {
+    height: 55%;
+     display: flex;
+    flex-direction: column;
+     }
+        
+.dimenssionPetit2 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    }
+        
+.dimenssionPetit3 {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    }
+        
+.dimenssionPetit4 {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    }
 
 
 /* FOOTER */
@@ -521,37 +534,7 @@ padding : 0 15px;
 
     /* Section 2 */
 
-    .section2 {
-        max-width: 100%;
-    }
-    /* Section Activité */
-
-    .BLocVignettesActivites {
-        max-width: fit-content;
-        margin-top: auto;
-    }
-    
-    .VignettesActivites {
-        max-width: 25%;
-        margin: 15px;
-       
-    }
-    
-    .photoActivitesGrande {
-        min-width: 100%;
-        max-width: 100%;
-    }
-    
-    .photoActivitesUnTiers {
-        min-width: 100%;
-        max-width: 100%;
-    }
-    
-    .photoActivitesDeuxTiers {
-        min-width: 100%;
-        max-width: 100%;
-    }
-}
+   
 
 @media screen and ( max-width: 768px) {
 
@@ -732,43 +715,6 @@ padding : 0 15px;
 
     /* section 2 Activitées */
 
-    
-
-    .BLocVignettesActivites {
-        max-height: none;
-        margin-top: 20px;
-    }
-
-    .VignettesActivites {
-        min-width: 100%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    
-    .photoActivitesGrande {
-        min-width: 100%;
-        max-width: none;
-        max-height: 160px;
-        min-height: 160px;
-    }
-    
-    .photoActivitesUnTiers {
-        min-width: 100%;
-        max-width: none;
-        max-height: 160px;
-        min-height: 160px;
-    }
-    
-    .photoActivitesDeuxTiers {
-        min-width: 100%;
-        max-width: none;
-        max-height: 160px;
-        min-height: 160px;
-    }
-
-    .titreActivitesVignettes {
-        margin: 20px;
-    }
     /* Footer */
 
     .mepFooter {
