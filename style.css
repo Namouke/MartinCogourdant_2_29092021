@@ -723,12 +723,65 @@ padding-left:25px;
 
     /* section 2 Activitées */
 
-    .vignetteActivite {
-        display: none;
-        justify-content: none;
-        max-height: none;
-        
+    .margeTitreActivite {
+        margin: 40px 0px 0px 15px;
     }
+    
+    .vignetteActivite {
+        display: block;
+        max-height: none;
+    }
+    
+    .cadreVignetteActivite {
+        width: auto;
+    }
+    
+    .contourActivite {
+        border-radius: 25px
+        }
+    
+    .contour {
+        box-shadow: 1px 1px 12px #F2F2F2;
+        }
+    
+    .dimensionImage {
+        height: 190px;
+    }
+    
+    .titreImage  {
+        margin: 15px;
+        }
+    
+    .doublePhoto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+    
+    .dimenssionPetit1 {
+        height: 55%;
+         display: flex;
+        flex-direction: column;
+         }
+            
+    .dimenssionPetit2 {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        }
+            
+    .dimenssionPetit3 {
+        height: 45%;
+        display: flex;
+        flex-direction: column;
+        }
+            
+    .dimenssionPetit4 {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        }
+    
 
     /* Footer */
 
